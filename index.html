@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title> 100 Days of Code with HERE</title>
+        <meta name="viewport" charset="utf-8" content="initial-scale=1.0, width=device-width " />
+        <script src="https://js.api.here.com/v3/3.1/mapsjs-core.js" type="text/javascript"></script> 
+        <script src="https://js.api.here.com/v3/3.1/mapsjs-service.js" type="text/javascript"></script>
+        <script src="https://js.api.here.com/v3/3.1/mapsjs-ui.js" type="text/javascript"></script>
+        <script src="https://js.api.here.com/v3/3.1/mapsjs-mapevents.js" type="text/javascript"></script>
+        <link rel="stylesheet" type="text/css" href="https://js.api.here.com/v3/3.1/mapsjs-ui.css" />
+
+        <script src="credentials.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <div id="mapContainer" style="width: 100vw; height: 80vh; align-self: center; background-color: aqua;"></div>
+    </body>
+    <script>
+        var platform = new H.service.Platform({
+            'apikey': window.hereCreds.JSKEY
+        });
+
+        var myPosition = {lat:52.53086, lng:13.38474};
+
+        var defaultLayers = platform.createDefaultLayers();
+
+        var map = new H.Map(
+        document.getElementById('mapContainer'),
+        defaultLayers.vector.normal.map,
+        {
+            zoom: 10,
+            center: myPosition
+        });
+
+        var ui = H.ui.UI.createDefault(map, defaultLayers);
+
+        var mapEvents = new H.mapevents.MapEvents(map);
+
+        var behavior = new H.mapevents.Behavior(mapEvents);
+
+
+
+    </script>
+</html>
