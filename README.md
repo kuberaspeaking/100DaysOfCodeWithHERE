@@ -30,50 +30,50 @@ Happy coding with <strong>100DaysOfCode</strong>!</p>
 ### [Day 3/100 : Load Map](/Day%203) 
 - define the center of the map with latitude and longitude
 - initialize VECTOR map with default layer, center of map and zoom level 
-### [Day 4/100 : Map UI - Control Panel](/day4.html)
+### [Day 4/100 : Map UI - Control Panel](/Day%204)
 - Add zoom in and out buttons to the map.
 - Also add ui element to change map type (satellite, traffic) after loading.
-### [Day 5/100 : Map UI- map event](/day5.html)
+### [Day 5/100 : Map UI- map event](/Day%205)
 - Add panning capability to the map
-### [Day 6/100 : Map Tilt](/day6.html) 
+### [Day 6/100 : Map Tilt](/Day%206) 
 - Set the map to tilt at a 60º angle
 - Align the map such that the top of the map is the West half of the globe
-### [Day 7/100 : Position](/day7.html)
+### [Day 7/100 : Position](/Day%207)
 - Get position from your browser  * Hint check out our blogs
-### [Day 8/100 : Marker](/day8.html) 
+### [Day 8/100 : Marker](/Day%208) 
 - Add basic marker at current position
-### [Day 9/100 :  Marker SVG](/day9.html)
+### [Day 9/100 :  Marker SVG](/Day%209)
 - Change the marker from the default marker to an svg marker
 - The maker can be a white circle inside a green circle like the one on our web app Here We Go 
-### [Day 10/100 : Click for position](/day10.html)
+### [Day 10/100 : Click for position](/Day%2010)
 - add event to log the position when you click anywhere on the map
-### [Day 11/100 : Marker data](/day11.html)
+### [Day 11/100 : Marker data](/Day%2011)
 - Place an image as a marker where you clicked on the map. 
 - Add the text " I'm Here " to the marker as marker data 
-### [Day 12/1000 :  Info-bubble](/day12.html) 
+### [Day 12/1000 :  Info-bubble](/Day%2012) 
 - Display an info-bubble on tapping the marker
 - show the marker data as the info in the bubble.
-### [Day 13 dragging the marker](/day13.html)
+### [Day 13 dragging the marker](/Day%2013)
 - add capabilities to drag a marker and position it in another place on the screen
 - Hint: You will have to write event listeners for when you start the drag, during the drag and end of drag
-### [Day 14 Drawing a circle](/day14.html)
+### [Day 14 Drawing a circle](/Day%2014)
 - Draw a circle of radius 10 km
 - Let the center be the new position after the marker was dragged
-### [Day 15 Customizing the circle](/day15.html)
+### [Day 15 Customizing the circle](/Day%2015)
 - Fill in the circle with a color of your choice
 - Give it a darker border of width 4px
-### [Day 16 Playing with fonts](/day16.html)
+### [Day 16 Playing with fonts](/Day%2016)
 - Change the map font on Load
 - Hint ;) Take a look at map styles
-### [Day 17 Styling after load](/day17.html)
+### [Day 17 Styling after load](/Day%2017)
 - Create a button called highlight hospitals
 - Change the colour of all hospitals in the world to a bright red on clicking the button
 - Hint- use map style on load
-### [Day 18 Languages](/day18.html)
+### [Day 18 Languages](/Day%2018)
 - Change the default display language of the map to anything other than English 
-### [Day 19 Control panel](/day19.html)
+### [Day 19 Control panel](/Day%2019)
 - Change the position of the map control panel to the top right of the map
-### [Day 20 What's meters, I understand only miles](/day20.html)
+### [Day 20 What's meters, I understand only miles](/Day%2020)
 - Change the unit of the map to see distance in miles
 
  
