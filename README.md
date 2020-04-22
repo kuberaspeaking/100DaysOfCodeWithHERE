@@ -21,10 +21,10 @@ Happy coding with <strong>100DaysOfCode</strong>!</p>
 # Tasks completed so far
 ### Day 0/100 : Get your credentials by signing up for a freemium account at [developer.here.com](https://developer.here.com/)
 
-### [Day 1/100:  Page Frame](/day1.html)
+### [Day 1/100:  Page Frame](/Day 1)
 - Create the frame for an HTML + JS web page
 - Add HERE map core and map services source within the <head></head> tags 
-### [Day 2/100 : Create div for holding map](/day2.html)
+### [Day 2/100 : Create div for holding map](/Day2)
 - Create div for holding map - width = 100% of screen , height = 80% of screen, background colour of your choice.
 - initialize platform with the JavaScript apiKey
 ### [Day 3/100 : Load Map](/day3.html) 
