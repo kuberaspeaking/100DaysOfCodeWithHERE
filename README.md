@@ -75,19 +75,23 @@ Happy coding with <strong>100DaysOfCode</strong>!</p>
 - Change the position of the map control panel to the top right of the map
 ### [Day 20 Geocoder free form search](/Day%2020)
 - Change the unit of the map to see distance in miles
-- ### [Day 21 What's meters, I understand only miles](/Day%2021)
+### [Day 21 What's meters, I understand only miles](/Day%2021)
 - Use the geocoder and Search service to conduct a free form search for 'hauptstraße' 
 - Choose any street with a common name instead, and let us know how many results you get!
-- ### [Day 22 Limit results](/Day%2022)
+### [Day 22 Limit results](/Day%2022)
 - Limit the results from the task on Day 21 to 5 results
-- ### [Day 23 Geocoder limit by country](/Day%2023)
+### [Day 23 Geocoder limit by country](/Day%2023)
 - Limit the results from the task on Day 22 to the country ' Germany' 
 - If you are using a street near you, limit the search to your country 
-- ### [Day 24 Geocoder with a qualified query](/Day%2024)
+### [Day 24 Geocoder with a qualified query](/Day%2024)
 - Instead of the free form search, use a structured search where street = hauptstraße , city = Berlin, Country = Germany
 - Customize this according to the street you want in the result.
-- ### [Day 25 Geocoder access to the building](/Day%2025)
+### [Day 25 Geocoder access to the building](/Day%2025)
 - Search for 'Invalidenstraße 116, Berlin'
 - Place a marker on the access point of the building.
+### [Day 26 Geocoder discover](/Day%2026)
+- Use the discover endpoint of the Geocoder and search for ‘markets’
+- specify a point where you want to discover the markets 
+  
 
  
