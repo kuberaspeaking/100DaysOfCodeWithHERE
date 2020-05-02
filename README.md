@@ -92,6 +92,17 @@ Happy coding with <strong>100DaysOfCode</strong>!</p>
 ### [Day 26 Geocoder discover](/Day%2026)
 - Use the discover endpoint of the Geocoder and search for ‘markets’
 - specify a point where you want to discover the markets 
-  
+### [Day 27 Discover places in a radius](/Day%2027)
+- Using the discover endpoint, search for markets in a 1km radius
+### [Day 28 Discover distance](/Day%2028)
+- Note down the 'distance' parameter of each of the results from the result of Day 27
+- Display the result in an info-bubble for every result.
+### [Day 29 Autosuggest](/Day%2029)
+- I am so tired that I need Starbucks and cannot even type it completely
+- Use the autosuggest endpoint to search for an incomplete query 'star' near you. 
+### [Day 30 Autosuggest bounding box](/Day%2030)
+- Repeat the query from day 29
+- This time, restrict your search within a box of 4 blocks
+- Hint : check the parameter bounding box
 
  
