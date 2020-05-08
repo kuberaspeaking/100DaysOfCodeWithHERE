@@ -104,5 +104,19 @@ Happy coding with <strong>100DaysOfCode</strong>!</p>
 - Repeat the query from day 29
 - This time, restrict your search within a box of 4 blocks
 - Hint : check the parameter bounding box
-
+### [Day 31 Browse with name](/Day%2031)
+- Use the 'Browse' endpoint of the Geocoding and Search API to look for a 'Museum'
+- Do a simple search with just the 'name'
+### [Day 32 Browse + categories](/Day%2032)
+- Add to the search query from Day 31 to add a level 3 category search.
+-  Look for 'History Museums' around you while writing 'Museum' in the name field
+### [Day 33 Browse + Food Categories+ Takeout 🌮](/Day%2033)
+- Modify the search request from day 32 to use the level 2 food categories for Mexican food
+- Make sure that you only search for restaurants which serve ' takeout' .
+### [Day 34 Lookup](/Day%2034)
+- Note the 'id' from one of the places in the results from day 33
+- Use this id to 'lookup' the specific place
+### [Day 35 Reverse geocoder](/Day%2035)
+- You know where a friend lives but can't find their postal address to send them a gift ?
+- Use the reverse geocoder to get the postal address from the position on the map {lat: ,lng: }
  
