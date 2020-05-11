@@ -119,4 +119,15 @@ Happy coding with <strong>100DaysOfCode</strong>!</p>
 ### [Day 35 Reverse geocoder](/Day%2035)
 - You know where a friend lives but can't find their postal address to send them a gift ?
 - Use the reverse geocoder to get the postal address from the position on the map {lat: ,lng: }
+- ### Day 36 Geofencing Creating a WKT file
+- Draw a polygon around a place that is interesting to you and save it in a WKT file.
+### Day 37 Geofencing Uploading a WKT file
+- Upload the polygon you created in day 36 as a layer so you can use as a geofence later
+### Day 38 Geofencing retrieve layer
+- Retrieve the ID of the polygon that you uploaded as a layer on day 37
+### Day 39 Geofencing To be or not to be
+- Given a point with latitude and longitude and your layer from day 37, use one of our APIs to check whether the point is inside your layer or not.
+- Hint: Check out the link: https://t.her.is/35zshEV
+### Day 40 Geofence Almost there
+- Update your function from day 39 so that it’ll determine whether the point is within 100 meter proximity of your layer or not.
  
