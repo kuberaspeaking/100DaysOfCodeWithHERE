@@ -21,6 +21,10 @@ Happy coding with <strong>100DaysOfCode</strong>!</p>
 # Tasks completed so far
 ### Day 0/100 : Get your credentials by signing up for a freemium account at [developer.here.com](https://developer.here.com/)
 
+### Days 1-5 of #100DaysOfCode
+<details>
+<summary> Expand </summary>
+
 ### [Day 1/100:  Page Frame](/Day%201)
 - Create the frame for an HTML + JS web page
 - Add HERE map core and map services source within the <head></head> tags 
@@ -35,6 +39,12 @@ Happy coding with <strong>100DaysOfCode</strong>!</p>
 - Also add ui element to change map type (satellite, traffic) after loading.
 ### [Day 5/100 : Map UI- map event](/Day%205)
 - Add panning capability to the map
+</details>
+
+### Days 6-10 of #100DaysOfCode
+<details>
+<summary> Expand </summary>
+
 ### [Day 6/100 : Map Tilt](/Day%206) 
 - Set the map to tilt at a 60º angle
 - Align the map such that the top of the map is the West half of the globe
@@ -47,6 +57,12 @@ Happy coding with <strong>100DaysOfCode</strong>!</p>
 - The maker can be a white circle inside a green circle like the one on our web app Here We Go 
 ### [Day 10/100 : Click for position](/Day%2010)
 - add event to log the position when you click anywhere on the map
+</details>
+
+### Days 11-15 of #100DaysOfCode
+<details>
+<summary> Expand </summary>
+
 ### [Day 11/100 : Marker data](/Day%2011)
 - Place an image as a marker where you clicked on the map. 
 - Add the text " I'm Here " to the marker as marker data 
@@ -62,6 +78,12 @@ Happy coding with <strong>100DaysOfCode</strong>!</p>
 ### [Day 15 Customizing the circle](/Day%2015)
 - Fill in the circle with a color of your choice
 - Give it a darker border of width 4px
+</details>
+
+### Days 16-20 of #100DaysOfCode
+<details>
+<summary> Expand </summary>
+
 ### [Day 16 Playing with fonts](/Day%2016)
 - Change the map font on Load
 - Hint ;) Take a look at map styles
@@ -75,6 +97,12 @@ Happy coding with <strong>100DaysOfCode</strong>!</p>
 - Change the position of the map control panel to the top right of the map
 ### [Day 20 Geocoder free form search](/Day%2020)
 - Change the unit of the map to see distance in miles
+</details>
+
+### Days 21-25 of #100DaysOfCode
+<details>
+<summary> Expand </summary>
+
 ### [Day 21 What's meters, I understand only miles](/Day%2021)
 - Use the geocoder and Search service to conduct a free form search for 'hauptstraße' 
 - Choose any street with a common name instead, and let us know how many results you get!
@@ -89,6 +117,12 @@ Happy coding with <strong>100DaysOfCode</strong>!</p>
 ### [Day 25 Geocoder access to the building](/Day%2025)
 - Search for 'Invalidenstraße 116, Berlin'
 - Place a marker on the access point of the building.
+</details>
+
+### Days 26-30 of #100DaysOfCode
+<details>
+<summary> Expand </summary>
+
 ### [Day 26 Geocoder discover](/Day%2026)
 - Use the discover endpoint of the Geocoder and search for ‘markets’
 - specify a point where you want to discover the markets 
@@ -104,6 +138,12 @@ Happy coding with <strong>100DaysOfCode</strong>!</p>
 - Repeat the query from day 29
 - This time, restrict your search within a box of 4 blocks
 - Hint : check the parameter bounding box
+</details>
+
+### Days 31-35 of #100DaysOfCode
+<details>
+<summary> Expand </summary>
+
 ### [Day 31 Browse with name](/Day%2031)
 - Use the 'Browse' endpoint of the Geocoding and Search API to look for a 'Museum'
 - Do a simple search with just the 'name'
@@ -119,6 +159,12 @@ Happy coding with <strong>100DaysOfCode</strong>!</p>
 ### [Day 35 Reverse geocoder](/Day%2035)
 - You know where a friend lives but can't find their postal address to send them a gift ?
 - Use the reverse geocoder to get the postal address from the position on the map {lat: ,lng: }
+</details>
+
+### Days 36-40 of #100DaysOfCode
+<details>
+<summary> Expand </summary>
+
 ### [Day 36 Geofencing Creating a WKT file](/Day%2036)
 - Draw a polygon around a place that is interesting to you and save it in a WKT file.
 ### [Day 37 Geofencing Uploading a WKT file](/Day%2037)
@@ -130,4 +176,68 @@ Happy coding with <strong>100DaysOfCode</strong>!</p>
 - Hint: Check out the link: https://t.her.is/35zshEV
 ### [Day 40 Geofence Almost there](/Day%2040)
 - Update your function from day 39 so that it’ll determine whether the point is within 100 meter proximity of your layer or not.
+</details>
+
+### Days 41-45 of #100DaysOfCode
+<details>
+<summary> Expand </summary>
+</details>
+
+### Days 46-50 of #100DaysOfCode
+<details>
+<summary> Expand </summary>
+</details>
+
+### Days 51-55 of #100DaysOfCode
+<details>
+<summary> Expand </summary>
+</details>
+
+### Days 56-60 of #100DaysOfCode
+<details>
+<summary> Expand </summary>
+</details>
+
+### Days 61-65 of #100DaysOfCode
+<details>
+<summary> Expand </summary>
+</details>
+
+### Days 66-70 of #100DaysOfCode
+<details>
+<summary> Expand </summary>
+</details>
+
+### Days 71-75 of #100DaysOfCode
+<details>
+<summary> Expand </summary>
+</details>
+
+### Days 76-80 of #100DaysOfCode
+<details>
+<summary> Expand </summary>
+</details>
+
+### Days 81-85 of #100DaysOfCode
+<details>
+<summary> Expand </summary>
+</details>
+
+### Days 86-90 of #100DaysOfCode
+<details>
+<summary> Expand </summary>
+</details>
+
+### Days 91-95 of #100DaysOfCode
+<details>
+<summary> Expand </summary>
+</details>
+
+### Days 96-100 of #100DaysOfCode
+<details>
+<summary> Expand </summary>
+</details>
+
+
+
  
