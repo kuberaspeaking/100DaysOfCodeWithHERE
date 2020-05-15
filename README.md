@@ -180,86 +180,85 @@ Happy coding with <strong>100DaysOfCode</strong>!</p>
 
 ### Days 41-45 of #100DaysOfCode
 <details>
-<summary> Expand </summary>
+<summary> Coming soon ... </summary>
 
-Coming soon ...
+
 </details>
 
 ### Days 46-50 of #100DaysOfCode
 <details>
-<summary> Expand </summary>
+<summary> Coming soon ... </summary>
 
-Coming soon ...
 </details>
 
 ### Days 51-55 of #100DaysOfCode
 <details>
-<summary> Expand </summary>
+<summary> Coming soon ... </summary>
 
-Coming soon ...
+
 </details>
 
 ### Days 56-60 of #100DaysOfCode
 <details>
-<summary> Expand </summary>
+<summary> Coming soon ... </summary>
 
-Coming soon ...
+
 </details>
 
 ### Days 61-65 of #100DaysOfCode
 <details>
-<summary> Expand </summary>
+<summary> Coming soon ... </summary>
 
-Coming soon ...
+
 </details>
 
 ### Days 66-70 of #100DaysOfCode
 <details>
-<summary> Expand </summary>
+<summary> Coming soon ... </summary>
 
-Coming soon ...
+
 </details>
 
 ### Days 71-75 of #100DaysOfCode
 <details>
-<summary> Expand </summary>
+<summary> Coming soon ... </summary>
 
-Coming soon ...
+
 </details>
 
 ### Days 76-80 of #100DaysOfCode
 <details>
-<summary> Expand </summary>
+<summary> Coming soon ... </summary>
 
-Coming soon ...
+
 </details>
 
 ### Days 81-85 of #100DaysOfCode
 <details>
-<summary> Expand </summary>
+<summary> Coming soon ... </summary>
 
-Coming soon ...
+
 </details>
 
 ### Days 86-90 of #100DaysOfCode
 <details>
-<summary> Expand </summary>
+<summary> Coming soon ... </summary>
 
-Coming soon ...
+
 </details>
 
 ### Days 91-95 of #100DaysOfCode
 <details>
-<summary> Expand </summary>
+<summary> Coming soon ... </summary>
 
-Coming soon ...
+
 </details>
 
 ### Days 96-100 of #100DaysOfCode
 <details>
-<summary> Expand </summary>
+<summary> Coming soon ... </summary>
 
-Coming soon ...
+
 </details>
 
 
