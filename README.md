@@ -180,9 +180,22 @@ Happy coding with <strong>100DaysOfCode</strong>!</p>
 
 ### Days 41-45 of #100DaysOfCode
 <details>
-<summary> Coming soon ... </summary>
+<summary> Expand </summary>
 
-
+### [Day 41 Routing A to B](/Day%2041)
+- Determine two random locations on the map that are navigable by car.
+- Get the shortest route for car to drive between those locations in the form of a polyline.
+### [Day 42 Routing : Draw the route](/Day%2042)
+- Use the flexible polyline received as the result from Day 41
+- Draw the first route on the map and color it #034F84
+### [Day 43 Routing : Alternatives](/Day%2043)
+- Request for 3 alternative routes for the route received on Day 42
+### [Day 44 Routing : Timing is important](/Day%2044)
+- Set the departure time to 9 AM for the route 
+- Set the departure time to 3 PM for the same route 
+- Compare the difference between all received routes
+### [Day 45 Routing : Summary](/Day%2045)
+- Get the summary of the time required and distance covered for any of the routes you calculated in the previous days.
 </details>
 
 ### Days 46-50 of #100DaysOfCode
