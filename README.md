@@ -200,7 +200,21 @@ Happy coding with <strong>100DaysOfCode</strong>!</p>
 
 ### Days 46-50 of #100DaysOfCode
 <details>
-<summary> Coming soon ... </summary>
+<summary> Expand </summary>
+
+### [Day 46 Routing : Waypoints](/Day%2046)
+- Add a waypoint which falls between the route from day 41 
+- Draw a route including this waypoint
+### [Day 47 Routing : Driving Instructions](/Day%2047)
+- Print out driving instructions and actions for the first route received on Day 46
+### [Day 48 Routing : Speed Limit](/Day%2048)
+- Find out the speed limit on the route for Day 46
+### [Day 49 Routing : Stop Duration](/Day%2049)
+- Add a stopover of 900 seconds to the waypoint from day 46
+- Log the waiting time with instructions
+### [Day 50 Routing : Pedestrian](/Day%2050)
+- Get a walking route between two points
+- Draw the route with a dashed line 
 
 </details>
 
