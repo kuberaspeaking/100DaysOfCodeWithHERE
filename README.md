@@ -220,9 +220,23 @@ Happy coding with <strong>100DaysOfCode</strong>!</p>
 
 ### Days 51-55 of #100DaysOfCode
 <details>
-<summary> Coming soon ... </summary>
+<summary> Expand </summary>
 
-
+### [Day 51 Routing :  Avoid routing feature](/Day%2051)
+- For the pedestrian route from day 50,  avoid parks
+- Use Routing v7 to do this
+### [Day 52 Routing : Bicycle](/Day%2052)
+- Get a bicycle route between two points
+- Use Routing v7 to do this
+### [Day 53 Routing : Avoid routing feature](/Day%2053)
+- For the bicycle route from day 52,  avoid dirt roads
+- Use Routing v7 to do this  
+### [Day 54 Routing : Public Transport](/Day%2054)
+- Get a public transport route between two points
+- Use Routing v7 to do this
+### [Day 55 Routing : Avoid Buses](/Day%2055)
+- For the public transport route for day 54, get a route without buses
+- Use Routing v7 to do this
 </details>
 
 ### Days 56-60 of #100DaysOfCode
