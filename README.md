@@ -241,9 +241,20 @@ Happy coding with <strong>100DaysOfCode</strong>!</p>
 
 ### Days 56-60 of #100DaysOfCode
 <details>
-<summary> Coming soon ... </summary>
+<summary> Expand </summary>
 
-
+### [Day 56 Routing :  Avoid Traffic jams](/Day%2056)
+- With a car route from a point A to B, avoid traffic jams
+### [Day 57 Routing : Avoid Areas](/Day%2057)
+- Identify an area on the route from day 56 which you don't like driving through.
+- Create and display a box around that area
+### [Day 58 Routing : Avoid Areas](/Day%2058)
+- Obtain a new route between the same places as on day 56,  while avoiding the area specified on day 57 
+### [Day 59 Routing : Links](/Day%2059)
+- Obtain a breakdown of your route from day 56 in the form of road links
+### [Day 60 Routing : Avoid links](/Day%2060)
+- From the results on day 58, select the link id of a patch of road you wish to avoid.
+- Obtain a new route between the same places while avoid this patch of road.
 </details>
 
 ### Days 61-65 of #100DaysOfCode
