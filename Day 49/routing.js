@@ -18,7 +18,6 @@ var routingParameters = {
 var onResult = function(result) {
   console.log(result);
   if (result.routes.length) {
-    let routeNum = 1;
 
     result.routes.forEach(route =>{
 
@@ -62,9 +61,7 @@ var onResult = function(result) {
   
       });
 
-      document.getElementById("panel").innerHTML += `<br>`+'Route '+routeNum+ ' Distance: '+ totalLength/1000 +' Km'+' Duration: '+ totalDuration.toMMSS() + `<br>`;
-      
-      routeNum++;
+      document.getElementById("panel").innerHTML += `<br>`+'Route '+(result.routes.indexOf(route)+1)+ ' Distance: '+ totalLength/1000 +' Km'+' Duration: '+ totalDuration.toMMSS() + `<br>`;
     });
       
   }
