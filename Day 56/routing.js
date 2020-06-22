@@ -8,6 +8,7 @@ var routingParameters = {
   mode:"fastest;car;traffic:enabled",
   alternatives:3,
   representation: "display"
+  
 };
   
 // Define a callback function to process the routing response:

@@ -222,13 +222,13 @@ Happy coding with <strong>100DaysOfCode</strong>!</p>
 <details>
 <summary> Expand </summary>
 
-### [Day 51 Routing :  Avoid routing feature](/Day%2051)
+### [Day 51 Routing :  Avoid routing feature- Parks](/Day%2051)
 - For the pedestrian route from day 50,  avoid parks
 - Use Routing v7 to do this
 ### [Day 52 Routing : Bicycle](/Day%2052)
 - Get a bicycle route between two points
 - Use Routing v7 to do this
-### [Day 53 Routing : Avoid routing feature](/Day%2053)
+### [Day 53 Routing : Avoid routing feature- Dirt Roads](/Day%2053)
 - For the bicycle route from day 52,  avoid dirt roads
 - Use Routing v7 to do this  
 ### [Day 54 Routing : Public Transport](/Day%2054)
@@ -259,30 +259,88 @@ Happy coding with <strong>100DaysOfCode</strong>!</p>
 
 ### Days 61-65 of #100DaysOfCode
 <details>
-<summary> Coming soon ... </summary>
+<summary> Expand </summary>
 
-
+### [Day 61 Routing : Reach Radius](/Day%2061)
+- Draw a circle of 10km from any single point 
+- Get a route from the center to any point on the circle
+- Check if the route is actually 10km long
+### [Day 62 Routing : Isoline Distance](/Day%2062)
+- Get an isoline route from the center from day 61
+- Make the radius of this isoline 10 km.
+### [Day 63 Routing : Isoline Time ](/Day%2063)
+- Get an isoline route from the center from day 61
+- This time find places you can reach within 15 minutes of walking.
+### [Day 64 Routing : Matrix](/Day%2064)
+- Select 3 different addresses as the starting address
+- Select 2 different addresses as the destination address
+- Get a route from all starting address to all destinations
+### [Day 65 Routing : Id](/Day%2065)
+- Get routing Ids for the different routes received on day 64
+- Draw the routes using the routing Id endpoint.
 </details>
 
 ### Days 66-70 of #100DaysOfCode
 <details>
-<summary> Coming soon ... </summary>
+<summary> Expand </summary>
 
-
+### [Day 66 Truck Routing](/Day%2066)
+- Get a route for a truck
+- Make sure it follows strict road restrictions
+### [Day 67 Truck Routing : Radioactive](/Day%2067)
+- Get a route for a truck
+- Mention that it contains radioactive material
+- Does it still get a route through the city?
+### [Day 68 Truck Profile](/Day%2068)
+- Calculate a route for a truck 3 meters high
+- Use two different cities as source and destination
+### [Day 69 Truck Profile ](/Day%2069)
+- Calculate a route for a truck with 1 trailer, 4 axles and is 20 meters long
+### [Day 70 Truck Profile ](/Day%2070)
+- Calculate a route for the truck profile in day 69
+- The total mass of the truck with the trailer is 40T
+- Weight per axle is 10T
 </details>
 
 ### Days 71-75 of #100DaysOfCode
 <details>
-<summary> Coming soon ... </summary>
+<summary> Expand </summary>
 
-
+### [Day 71 Route Attributes](/Day%2071)
+- Get a route for a truck from Berlin, Germany to Warsaw, Poland
+- Get the route summary by country
+### [Day 72 Route Attributes](/Day%2072)
+- Using the route request from day 71, also get the zones along the route
+### [Day 73 Leg Attributes](/Day%2073)
+- For the route request from day 72, get maneuvers for every leg of the route
+### [Day 74 Maneuver Attributes](/Day%2074)
+- For the maneuvers from day 73, make sure to also include the direction of the maneuver
+### [Day 75 Clean-up result](/Day%2075)
+- To get a cleaner result for the route from day 71, remove the leg attributes and summary from the result
 </details>
 
 ### Days 76-80 of #100DaysOfCode
 <details>
-<summary> Coming soon ... </summary>
+<summary> Expand </summary>
 
-
+### [Day 76 Cost of the journey](/Day%2076)
+- Using the Fleet Telematics API, calculate the costs of the journey if
+- Driver is paid 10/hour 
+- Vehicle cost is 0.5/Km
+- Specify the local currency 
+### [Day 77 Energy Cost](/Day%2077)
+- Using the same truck profile as day 76, calculate the fuel cost for the trip
+- Maximum speed of the truck is 90 km/hr
+- Weight Dependent consumption profile of a 40T truck
+### [Day 78  Cost of Fuel](/Day%2078)
+- For the energy cost calculated on day 77, specify the fuel type
+- Specify your local fuel price per unit
+### [Day 79 Toll Cost](/Day%2079)
+- Get the total toll cost for the above truck
+- Specify that it has 1 trailer 
+### [Day 80 Toll Cost per System](/Day%2080)
+- For the above toll cost, find out what was the toll cost per toll system 
+- Where is your toll money going ?🤔 🤑 
 </details>
 
 ### Days 81-85 of #100DaysOfCode

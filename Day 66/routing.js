@@ -1,29 +1,27 @@
 // Get an instance of the routing service version 7:
 var router = platform.getRoutingService();
 
-// Create the parameters for the routing request:
 var routingParameters = {
-  waypoint0: '52.4569927,13.380545',
-  waypoint1:'52.4874515,13.42361286',
-  mode:"fastest;pedestrian;park:-1",
-  representation: "display"
-  };
+  waypoint0:"52.53086235,13.38475371",
+  waypoint1:"52.1370754,11.6326044",
+  mode:"fastest;truck;traffic:enabled",
+  truckRestrictionPenalty:'strict',
+  alternatives:3,
+  representation: "display",
+};
+  
   
 // Define a callback function to process the routing response:
 var onResult = function(result) {
   console.log(result);
-  var route = result.response.route[0]; 
+  var colors =["green","orange","yellow","red"]
+  result.response.route.forEach(route =>{
   var lineString = new H.geo.LineString(),
     routeShape = route.shape,
     polyline,
-    startIcon,
-    endIcon,
     startMarker,
     endMarker;
   
-  startIcon = new H.map.Icon('img/walk.png');
-  endIcon = new H.map.Icon('img/finish.png');
-
   // Retrieve the mapped positions of the requested waypoints:
   startPoint = route.waypoint[0].mappedPosition;
   endPoint = route.waypoint[1].mappedPosition;
@@ -37,28 +35,34 @@ var onResult = function(result) {
   polyline = new H.map.Polyline(lineString, {
     style: {
       lineWidth: 4,
-      strokeColor: 'rgba(0, 0, 0, 0.7)'
+      strokeColor: colors[result.response.route.indexOf(route)]
     }
   });
 
   startMarker = new H.map.Marker({
     lat:route.waypoint[0].mappedPosition.latitude,
-    lng:route.waypoint[0].mappedPosition.longitude },{
-    icon:startIcon
-  });
+    lng:route.waypoint[0].mappedPosition.longitude 
+  },{icon:(new H.map.Icon('img/truck.png'))});
+
+
 
   endMarker = new H.map.Marker({
     lat:route.waypoint[1].mappedPosition.latitude,
-    lng:route.waypoint[1].mappedPosition.longitude },{
-    icon:endIcon
-  });
+    lng:route.waypoint[1].mappedPosition.longitude 
+  },{icon:(new H.map.Icon('img/end.png'))});
+
+
 
   // Add the polyline to the map
   map.addObjects([polyline,startMarker,endMarker]);
   // And zoom to its bounding rectangle
+
+  map.getViewPort().setPadding(100, 0, 0, 0);
   map.getViewModel().setLookAtData({
     bounds: polyline.getBoundingBox()
   });
+  map.getViewPort().setPadding(0, 0, 0, 0);
+});
 };
 
 var onError = function(error) {
