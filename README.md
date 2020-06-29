@@ -359,7 +359,7 @@ Happy coding with <strong>100DaysOfCode</strong>!</p>
 - Upload an overlay to allow access to your vehicle on this internal route
 ### [Day 84 Custom Routes](/Day%2084)
 - Use the overlay from day 83
-- Make a #lastmile delivery on an internal route.
+- Make a #last mile delivery on an internal route.
 ### [Day 85 Advanced Datasets](/Day%2085)
 - Use the Advanced Dataset called EVCHARGING_POI
 - display all the EV Charging stations along the route from day 81
