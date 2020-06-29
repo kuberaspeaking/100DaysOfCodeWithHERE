@@ -345,9 +345,24 @@ Happy coding with <strong>100DaysOfCode</strong>!</p>
 
 ### Days 81-85 of #100DaysOfCode
 <details>
-<summary> Coming soon ... </summary>
+<summary> Expand </summary>
 
-
+### [Day 81 EV Routing with charging](/Day%2081)
+- Get a route between two cities for your EV using the fleet telematics API
+- Ask for stopovers to charge your vehicle by mentioning Battery Parameters
+### [Day 82 Traveling Salesperson problem](/Day%2082)
+- Select a starting point for your route
+- Select 3 destination points
+- Use the Waypoint Sequence API, to get the optimal sequence for these points
+### [Day 83 Custom Routes](/Day%2083)
+- Regular vehicles aren't allowed on a private route
+- Upload an overlay to allow access to your vehicle on this internal route
+### [Day 84 Custom Routes](/Day%2084)
+- Use the overlay from day 83
+- Make a #lastmile delivery on an internal route.
+### [Day 85 Advanced Datasets](/Day%2085)
+- Use the Advanced Dataset called EVCHARGING_POI
+- display all the EV Charging stations along the route from day 81
 </details>
 
 ### Days 86-90 of #100DaysOfCode
