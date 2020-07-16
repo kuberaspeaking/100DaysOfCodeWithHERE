@@ -359,7 +359,7 @@ Happy coding with <strong>100DaysOfCode</strong>!</p>
 - Upload an overlay to allow access to your vehicle on this internal route
 ### [Day 84 Custom Routes](/Day%2084)
 - Use the overlay from day 83
-- Make a #last mile delivery on an internal route.
+- Make a #lastmile delivery on an internal route.
 ### [Day 85 Advanced Datasets](/Day%2085)
 - Use the Advanced Dataset called EVCHARGING_POI
 - display all the EV Charging stations along the route from day 81
@@ -367,23 +367,74 @@ Happy coding with <strong>100DaysOfCode</strong>!</p>
 
 ### Days 86-90 of #100DaysOfCode
 <details>
-<summary> Coming soon ... </summary>
+<summary> Expand </summary>
 
-
+### [Day 86 Map images:  Map of New York](/Day%2086) 
+- Using the Map Image API, create a map image centered on Manhattan
+- Get the image in in PNG format and of size 1280 by 720 pixels
+### [Day 87 Map images - Satellite image of Easter Island](/Day%2087)
+- Create a map image of Easter Island in satellite view
+- Zoom in as close as you can but make sure the entire island remains visible
+### [Day 88 Map images - Map of Disneyland with a marker](/Day%2088) 
+- Create of map image of Disneyland put a marker on the castle
+- Marker color should be green and the theme should be "pin“
+### [Day 89 Map images - Map the Bermuda Triangle](/Day%2089)
+- Create a map image of the Bermuda Triangle
+- Draw a triangle on the map covering the Bermuda Triangle
+- Use a white outline and a transparent blue fill color
+### [Day 90 Map images - Map a Route across Crete](/Day%2090)
+- Create a map image of Crete
+- The map labels should be in Greek
+- Use the routing feature of the Map Image API to calculate and display a route between Kissamos and Sitia
 </details>
 
 ### Days 91-95 of #100DaysOfCode
 <details>
-<summary> Coming soon ... </summary>
+<summary> Expand </summary>
 
-
+### [Day 91 Transit API 🚍🦁🐟](/Day%2091)
+- Use the HERE Transit API to find a route between the Singapore Zoo
+and the famous Singapore Merlion
+- Draw the route on a map 
+### [Day 92 Transit API - Arrival and Alternatives 🕘 ↖️ ↗️](/Day%2092)
+- Find a transit route between Berlin Alexanderplatz and Checkpoint Charlie
+- Make sure you arrive at your destination at 9am tomorrow
+- Get an alternative route
+### [Day 93 Transit API - Fares and avoiding things ⛔🚇 💶](/Day%2093)
+- Find a transit route between the Eiffel Tower and the Places des Vosges
+- Don’t use the Paris Métro!
+- Don’t allow more than two changes
+- Sow fares/ticket prices
+### [Day 94 Transit API - Stations 🚉 🚏](/Day%2094)
+- List all public transit stations near the Tower of London
+### [Day 95 Transit API - Next departures 📅 🚋](/Day%2095)
+- For Cavil Avenue Station in Gold Coast, Australia find the list of tram departures for the next 30 minutes
 </details>
 
 ### Days 96-100 of #100DaysOfCode
 <details>
-<summary> Coming soon ... </summary>
+<summary> Expand </summary>
 
-
+### [Day 96 HERE Data Hub - Installing the CLI 💾](/Day%2096)
+- This will require NPM
+- Start here: t.her.is/3ewK9UB
+- Be sure to login after you install the CLI!
+### [Day 97 HERE Data Hub - Uploading Geospatial Information to Data Hub ⬆️](/Day%2097)
+- Use the National Parks System GeoJSON data (t.her.is/2Nwh6oc)
+- Use the #CLI to create a new space
+- Use the CLI to upload the #GeoJSON
+- Confirm the data was added.
+### [Day 98 HERE Data Hub - Retrieve features ↪️](/Day%2098)
+- Use Node (or language of your choice) to access features via REST API
+- Display features in the console
+- API Reference: t.her.is/31bN3uh
+### [Day 99 HERE Data Hub - Retrieve features based on location📍](/Day%2099)
+- Use Node (or language of your choice) to access features via REST API
+- This time return features that are near a location (you pick!)
+- API Reference: t.her.is/31bN3uh
+### [Day 100 HERE Data Hub - Add features to a map 🗺️](/Day%20100)
+- Create a basic map in #JavaScript using our library
+- Add the features from your Data Hub space
 </details>
 
 

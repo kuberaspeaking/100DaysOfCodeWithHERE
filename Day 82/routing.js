@@ -6,7 +6,7 @@ function getEVChargingRoute(){
     `&destination1=52.518229,13.315388`+
     `&destination2=52.54830288,13.3634539`+
     `&mode=fastest;car;traffic:disabled`+
-    `&improveFor=time`;
+    `&improveFor=time`; 
   
 
   fetch(url)

@@ -13,7 +13,7 @@ var routingParameters = {
   representation: "display",
   routeAttributes:'summary'
 };
-  
+   
 // Define a callback function to process the routing response:
 var onResult = function(result) {
   console.log(result);
