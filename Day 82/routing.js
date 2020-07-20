@@ -23,7 +23,7 @@ function getEVChargingRoute(){
           lat:waypoint.lat,
           lng:waypoint.lng 
         });
-        chargingMarker.setData("Sequence: "+waypoint.sequence+" "+waypoint.id);
+        waypointMarker.setData("Sequence: "+waypoint.sequence+" "+waypoint.id);
         routeGroup.addObject(waypointMarker);
           
         });
