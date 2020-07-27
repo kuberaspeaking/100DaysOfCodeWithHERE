@@ -1,12 +1,12 @@
 function getCustomRoute(){
   let url = `https://fleet.ls.hereapi.com/2/calculateroute.json`+
     `?apikey=${window.hereCreds.JS_KEY}`+
-    `&overlays=OVERLAYROUTE3`+// your overlay name
+    `&overlays=OVERLAYIKEA`+// your overlay name
     `&mode=fastest;truck`+
-    `&waypoint0=52.52687,13.37435`+
-    `&waypoint1=52.52687,13.37345`+
-    `&routeAttributes=shape`+
-    `&storage=readonly`;
+    `&waypoint0=52.45710,13.38058`+
+    `&waypoint1=52.46961,13.36730`+
+    `&routeAttributes=shape`;
+  //   `&storage=readonly`;
     
 
 
@@ -14,29 +14,7 @@ function getCustomRoute(){
     .then(result => result.json())
     .then(result => {
       console.log(result);
-      let points = [ 
-        {lat:52.52687,lng:13.37435},
-        {lat:52.52687,lng:13.37425},
-        {lat:52.52687,lng:13.37415},
-        {lat:52.52687,lng:13.37405},
-        {lat:52.52687,lng:13.37395},
-        {lat:52.52687,lng:13.37385},
-        {lat:52.52687,lng:13.37375},
-        {lat:52.52687,lng:13.37365},
-        {lat:52.52687,lng:13.37355},
-        {lat:52.52687,lng:13.37345}];
      
-
-      var linestring = new H.geo.LineString();
-      points.forEach(function(point) {
-        linestring.pushPoint(point);
-      });
-
-      // Initialize a polyline with the linestring:
-      var polyline = new H.map.Polyline(linestring, { style: { strokeColor: "rgba(255,0,0,0.5)", lineWidth: 10 }});
-
-      // Add the polyline to the map:
-      map.addObject(polyline);
 
 
       var route = result.response.route[0];
@@ -77,4 +55,34 @@ function getCustomRoute(){
     });
 }
 
+
+function drawCustomRoute(){
+  let points = [ 
+      {lat:52.46959,lng:13.36809},
+      {lat:52.46959,lng:13.36801},
+      {lat:52.46960,lng:13.36792},
+      {lat:52.46960,lng:13.36781},
+      {lat:52.46960,lng:13.36771},
+      {lat:52.46961,lng:13.36761},
+      {lat:52.46961,lng:13.36751},
+      {lat:52.46962,lng:13.36741},
+      {lat:52.46962,lng:13.36732}];
+   
+
+    var linestring = new H.geo.LineString();
+    points.forEach(function(point) {
+      linestring.pushPoint(point);
+    });
+
+    // Initialize a polyline with the linestring:
+    var polyline = new H.map.Polyline(linestring, { style: { strokeColor: "rgba(255,0,0,0.5)", lineWidth: 6 }});
+
+    // Add the polyline to the map:
+    map.addObject(polyline);
+}
+
 getCustomRoute();
+drawCustomRoute();
+
+
+
